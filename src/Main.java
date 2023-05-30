@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         String base = "Mississippi State";
         String permutation = "MeitsastiSs siipp";
-        String notPermutation = "MeitsastiSs zoo";
+        String notPermutation = "MeitsastiSs ssipp";
         System.out.println("Should be true: " + isPermutation(base, permutation));
         System.out.println("Should be false: " + isPermutation(base, notPermutation));
     }
